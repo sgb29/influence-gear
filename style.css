@@ -167,3 +167,12 @@ article{
 .youtube{
     border: #E02C6D solid ;
 }
+
+/* -------- footer section -------- */
+
+footer{
+    text-align: center;
+    background-color: rgb(2, 4, 32);
+    color: white;
+    padding: 20px;
+}
