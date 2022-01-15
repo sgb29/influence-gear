@@ -201,6 +201,10 @@ footer{
     .highlighter, .popularity, .video{
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .highlighter {
+        flex-direction: column-reverse;
+    }
 }
 
 
