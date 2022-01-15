@@ -1,4 +1,4 @@
-/* Font awsome  */
+/* Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 /* Common style & Utilities  */
@@ -44,12 +44,14 @@ section{
     font-size: 16px;
 }
 
-button{
+.pre-book{
     width: 196px;
     height: 44px;
     background-color:#E02C6D ;
     color: white;
   border-radius: 22px;
+  font: size 16px;
+  font-weight: bold;
 }
 
 a{
@@ -92,13 +94,18 @@ hr{
     color:#3A3A3A ;
     font-size: 28px;
     font-weight: 900 ;
-    margin-left: 42.25%;
+    text-align: center;
 }
 
 .popularity{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 230px;
+    margin-left: 110px;
+}
+
+article{
+    text-align: left;
+    padding-bottom: 10px;
 }
 
 .popularity img {
@@ -134,4 +141,29 @@ hr{
     color: #787885;
 }
 
+.see-more{
+    color: #e02c6ede ;
+    font: size 16px;
+  font-weight: bold;
+  text-align: end;
+  margin-right: 120px;
+}
 
+/* --------------- video section ----------------- */
+
+.video{
+    width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+}
+.video-descrip{
+    font-size: 26px;
+    font-weight: bolder;
+    padding: 100px;
+    text-align: justify;
+    color: #e02c6efb ;
+}
+.youtube{
+    border: #E02C6D solid ;
+}
